@@ -88,10 +88,10 @@ Telegram bot to give id of any user, group,bot, channels and even stickers.
 
 1. Telegram bot to give id of any user, group,bot, channels.
 2. Support for using in groups and channels
-   3)Support for Inline Mode
-3. Also support to het id by Forwarding any message to the bot from users, bots, channels and even anonymous admins.
-4. Get id from usernames too.
-5. Specify owner's account to get help or something.
+3. Support for Inline Mode
+4. Also support to het id by Forwarding any message to the bot from users, bots, channels and even anonymous admins.
+5. Get id from usernames too.
+6. Specify owner's account to get help or something.
 
 ## To-Do
 
