@@ -1,0 +1,42 @@
+{
+  "name": "The ID Bot",
+  "description": "Telegram bot to give id of any user, group, bot, channels and even stickers.",
+  "logo": "https://telegra.ph/file/784c14c76533f944ae9b0.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+  "repository": "https://github.com/MysteryBots/ID-Bot",
+  "website": "https://telegram.dog/MysteryBots",
+  "success_url": "www.mysteryxd.ml",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org or @TgOrgBot"
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org or @TgOrgBot"
+    },
+    "BOT_TOKEN": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather"
+    },
+    "OWNER_ID": {
+      "description": "Get your id by sending /id to @MissMiley_bot. Fill only if you filled OWNER_NAME.", 
+      "required": false
+    }, 
+    "OWNER_NAME": {
+      "description": "Your name (to show as owner).Fill only if you filled OWNER_ID.", 
+      "required": false
+    }
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
