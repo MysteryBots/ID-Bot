@@ -119,8 +119,8 @@ Telegram bot to give id of any user, group,bot, channels and even stickers.
 ## Credits
 
 - [Dan Tès](https://github.com/delivrance) for his [Pyrogram](https://docs.pyrogram.org) Library
-- [@The_Firefrost] for the idea.
-- Inspired from My-ID-Bot and IDBot (not open source)
+- [@The_Firefrost](https://t.me/The_firefrost) for the idea.
+- Inspired from My-ID-Bot and IDBot (not open source though)
 
 ## Support
 
