@@ -10,4 +10,4 @@ class Config:
 
     # For Local Deploys edit above 5 lines.
     # Put your API_ID and OWNER_ID (without comma) and API_HASH,BOT_TOKEN n OWNER_NAME (with commas) below.
-    # If got any problem ask in @MysteryBotsChat
+    # If got any problem ask in @HellBot_Chat
