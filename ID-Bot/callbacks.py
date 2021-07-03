@@ -29,15 +29,6 @@ async def _calls(idbot, callback_query):
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(Data.home_button),
 		)
-
-	if callback_query.data.lower() == "deploy":
-		await idbot.edit_message_text(
-			chat_id=chat_id,
-			message_id=message_id,
-			text=Data.DEPLOY,
-			disable_web_page_preview=True,
-			reply_markup=InlineKeyboardMarkup(Data.home_button),
-		)
 	if callback_query.data.lower() == "help":
 		await idbot.edit_message_text(
 			chat_id=chat_id,

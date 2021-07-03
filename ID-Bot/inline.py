@@ -13,7 +13,7 @@ async def answer(idbot, inline_query):
 					f"My Telegram ID is `{inline_query.from_user.id}`"
 				),
 				description="Tap to send your ID to current chat",
-				thumb_url="https://telegra.ph/file/784c14c76533f944ae9b0.jpg",
+				thumb_url="https://telegra.ph/file/e882c1711210791f396ea.jpg",
 			)
 		],
 		cache_time=1,
